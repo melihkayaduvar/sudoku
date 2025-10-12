@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-922301a78acd95fe5179.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sudoku",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sudoku::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sudoku-Debug-c33bb253db04b5db2096.json",
+					"name" : "sudoku",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sudoku_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sudoku_autogen-Debug-a30dc964e7e83b9813df.json",
+					"name" : "sudoku_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sudoku_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sudoku_autogen_timestamp_deps-Debug-5d85fb19ebdb29d13a22.json",
+					"name" : "sudoku_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/MyCodes/Sudoku/sudoku/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "C:/MyCodes/Sudoku/sudoku"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

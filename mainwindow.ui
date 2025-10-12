@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sudoku</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_11">
+    <item row="0" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_0x0"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_0x1"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_0x2"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_1x0"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_1x1"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_1x2"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_2x0"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_2x1"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_2x2"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_0x3"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_0x4"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_0x5"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_1x3"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_1x4"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_1x5"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_2x3"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_2x4"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_2x5"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_0x6"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_0x7"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_0x8"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_1x6"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_1x7"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_1x8"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_2x6"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_2x7"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_2x8"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_3x0"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_3x1"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_3x2"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_4x0"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_4x1"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_4x2"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_5x0"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_5x1"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_5x2"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_3x3"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_3x4"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_3x5"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_4x3"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_4x4"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_4x5"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_5x3"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_5x4"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_5x5"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_3x6"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_3x7"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_3x8"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_4x6"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_4x7"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_4x8"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_5x6"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_5x7"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_5x8"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_8">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_6x0"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_6x1"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_6x2"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_7x0"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_7x1"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_7x2"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_8x0"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_8x1"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_8x2"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QGroupBox" name="groupBox_9">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_6x3"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_6x4"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_6x5"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_7x3"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_7x4"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_7x5"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_8x3"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_8x4"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_8x5"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QGroupBox" name="groupBox_10">
+         <property name="title">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="m_6x6"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="m_6x7"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLineEdit" name="m_6x8"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="m_7x6"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="m_7x7"/>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="m_7x8"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="m_8x6"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="m_8x7"/>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="m_8x8"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="1">
+         <widget class="QComboBox" name="zorlukcb">
+          <item>
+           <property name="text">
+            <string>Kolay</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Orta</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Zor</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>    Zorluk          </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="yenisudoku">
+        <property name="text">
+         <string>Yeni Sudoku</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="kontrolet">
+      <property name="text">
+       <string>Kontrol Et</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
