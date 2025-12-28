@@ -2,6 +2,9 @@
 
 #include <QMainWindow>
 #include <QIntValidator>
+#include <ctime>
+#include <cstdlib>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,9 +19,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
-    bool uygunmu(int satir,int sutun,int sayi);
-    bool cozuldumu();
 public slots:
     void yeniSudoku(int zorluk);
 private slots:
@@ -32,6 +32,6 @@ private:
     quint8 sudokuMatrisi[9][9];
     quint8 cozumMatrisi[9][9];
 
-    bool isSafe(quint8 board[9][9],int row,int col, int num);
-    bool solveSudoku(quint8 board[9][9]);
+    bool uygunmu(quint8 board[9][9],int row,int col, int num);
+    bool matrisiDoldur(quint8 board[9][9]);
 };

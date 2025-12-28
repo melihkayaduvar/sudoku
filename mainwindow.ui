@@ -369,6 +369,11 @@
             <string>Zor</string>
            </property>
           </item>
+          <item>
+           <property name="text">
+            <string>Test</string>
+           </property>
+          </item>
          </widget>
         </item>
         <item row="0" column="0">

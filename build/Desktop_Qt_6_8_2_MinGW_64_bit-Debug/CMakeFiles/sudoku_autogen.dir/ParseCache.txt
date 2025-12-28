@@ -153,7 +153,11 @@ C:/MyCodes/Sudoku/sudoku/mainwindow.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/QMainWindow
+ mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/QMessageBox
+ mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qdialog.h
+ mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h
+ mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qmessagebox.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.8.2/mingw_64/include/QtWidgets/qtwidgets-config.h
@@ -366,6 +370,6 @@ C:/MyCodes/Sudoku/sudoku/mainwindow.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
-C:/MyCodes/Sudoku/sudoku/main.cpp
 C:/MyCodes/Sudoku/sudoku/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/MyCodes/Sudoku/sudoku/main.cpp

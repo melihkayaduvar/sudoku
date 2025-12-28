@@ -629,6 +629,7 @@ public:
         zorlukcb->addItem(QString());
         zorlukcb->addItem(QString());
         zorlukcb->addItem(QString());
+        zorlukcb->addItem(QString());
         zorlukcb->setObjectName("zorlukcb");
 
         formLayout->setWidget(0, QFormLayout::FieldRole, zorlukcb);
@@ -677,6 +678,7 @@ public:
         zorlukcb->setItemText(0, QCoreApplication::translate("MainWindow", "Kolay", nullptr));
         zorlukcb->setItemText(1, QCoreApplication::translate("MainWindow", "Orta", nullptr));
         zorlukcb->setItemText(2, QCoreApplication::translate("MainWindow", "Zor", nullptr));
+        zorlukcb->setItemText(3, QCoreApplication::translate("MainWindow", "Test", nullptr));
 
         label->setText(QCoreApplication::translate("MainWindow", "    Zorluk          ", nullptr));
         yenisudoku->setText(QCoreApplication::translate("MainWindow", "Yeni Sudoku", nullptr));
